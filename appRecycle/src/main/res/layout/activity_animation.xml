@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="补间动画" />
+
+    <View
+        android:id="@+id/view_translate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#ff0000" />
+
+    <Button
+        android:id="@+id/button_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="属性动画" />
+
+    <View
+        android:id="@+id/view_property"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#00ff00" />
+
+    <Button
+        android:id="@+id/button_property_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="属性动画其他" />
+
+    <View
+        android:id="@+id/view_property_other"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#0000ff" />
+
+</LinearLayout>
